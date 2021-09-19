@@ -1,0 +1,69 @@
+﻿
+.big-banner {
+    background-image: radial-gradient(ellipse 80% 500px, transparent 10%, #212121 70%), url(/images/background2.png);
+    height: 750px;
+    width: 100%;
+    background-repeat: repeat-x;
+    /*background-color: #ff006e;*/
+}
+.small-banner {
+    background-color: black;
+    height: 450px;
+    width: 100%;
+}
+.btn-primary-outline {
+    background-color: transparent;
+    color: white;
+    border-color: #ccc;
+}
+.btn-primary-outline:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
+.main-text {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.sub-main-text {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.white-text {
+    color: white;
+}
+
+.btn-width {
+    height: 70px;
+    width: 210px;
+    font-size: 30px;
+}
+
+
+.search-input {
+    height: 70px;
+    font-size: 20px;
+}
+
+.icon {
+    font-size: 36px;
+}
+
+.img-dim1 {
+    height: 400px;
+    width: 550px;
+}
+
+.img-dim2 {
+    height: 350px;
+    width: 450px;
+}
+
+.img-dim3 {
+    height: 350px;
+    width: 550px;
+}
