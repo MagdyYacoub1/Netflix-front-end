@@ -1,11 +1,11 @@
-﻿.text-link{
-font-size:large;
-font-weight:bold;
+﻿.text-link {
+    font-size: large;
+    font-weight: bold;
 }
 
 .btn-signup {
     height: 50px;
-    width: 60%;
+    width: 50%;
     color: white;
     background-color: red;
     border-color: red;
