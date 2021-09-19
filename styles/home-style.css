@@ -2,14 +2,14 @@
 .big-banner {
     background-image: radial-gradient(ellipse 80% 500px, transparent 10%, #212121 70%), url(/images/background2.png);
     height: 750px;
-    width: 100%;
+    /*width: 100%;*/
     background-repeat: repeat-x;
     /*background-color: #ff006e;*/
 }
 .small-banner {
     background-color: black;
-    height: 450px;
-    width: 100%;
+    /*height: 450px;*/
+    /*width: 100%;*/
 }
 .btn-primary-outline {
     background-color: transparent;
@@ -37,12 +37,19 @@
     color: white;
 }
 
-.btn-width {
+.btn-signup {
     height: 70px;
     width: 210px;
+    color:white;
+    background-color: red;
     font-size: 30px;
+    border:hidden;
 }
 
+.btn-signup:hover {
+    background-color: red;
+    color: white;
+}
 
 .search-input {
     height: 70px;
@@ -55,15 +62,15 @@
 
 .img-dim1 {
     height: 400px;
-    width: 550px;
+    width: 70%;
 }
 
 .img-dim2 {
-    height: 350px;
-    width: 450px;
+    height: 400px;
+    width: 60%;
 }
 
 .img-dim3 {
-    height: 350px;
-    width: 550px;
+    height: 400px;
+    width: 70%;
 }
