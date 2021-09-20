@@ -1,0 +1,98 @@
+﻿.big-banner {
+    background-image: radial-gradient(ellipse 80% 500px, transparent 10%, #212121 70%), url(/images/background2.png);
+    height: 800px;
+    /*width: 100%;*/
+    background-repeat: repeat-x;
+    /*background-color: #ff006e;*/
+}
+
+.dark-container {
+    background-color: black;
+    opacity: 0.9;
+}
+
+.title-text {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.search-input {
+    height: 50px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: #333333;
+}
+
+.labels {
+    color: #BDBDBD;
+}
+
+.dark-labels {
+    color: #737373;
+}
+
+.btn-signup{
+    height: 50px;
+    width: 90%;
+    color: white;
+    margin-bottom: 20px;
+    background-color: #E50914;
+    border-color: #E50914;
+    border-block-color: #E50914;
+    font-size: 20px;
+    border: hidden;
+}
+
+.btn-signup:hover, btn-signup:active, btn-signup:visited, btn-signup:link, btn-signup:focus{
+    background-color: #E50914;
+    border-color: #E50914;
+    color: white;
+}
+
+
+.text-link-help{
+    color: #BDBDBD;
+    font-size: 13px;
+}
+
+.text-link-help:hover{
+    color: #BDBDBD;
+    font-size: 13px;
+}
+
+.img-dim{
+    height: 20px;
+    width: 5%;
+}
+
+
+.text-link-help {
+    color: white;
+    font-size: 15px;
+}
+
+.text-link-help:hover {
+    color: white;
+    font-size: 15px;
+}
+
+.captcha {
+    color: #737373;
+    font-size: 13px;
+    padding-bottom: 45px;
+}
+
+.text-link-learn {
+    color: blue;
+    font-size: 15px;
+}
+
+.text-link-learn:hover {
+    color: blue;
+    font-size: 15px;
+}
