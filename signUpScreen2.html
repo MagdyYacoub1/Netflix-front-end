@@ -14,13 +14,13 @@
 </head>
 <body>
     <div class="navbar col-sm-12">
-        <img class="navbar-brand ml-4" src="/images/logo.png" alt="logo" width="150" height="80">
+        <a href="homeScreen.html"> <img class="navbar-brand ml-4" src="/images/logo.png" alt="logo" width="150" height="80"></a>
         <form class="form-inline float-right mt-2 mr-sm-5">
-            <a href="#" class="link-dark text-link">Sign in</a>
+            <a href="signinScreen.html" class="link-dark text-link">Sign in</a>
         </form>
     </div>
     <hr class="solid my-0">
-    <div class="row justify-content-center pb-5 col-sm-12">
+    <div class="row justify-content-center custom-padding col-sm-12">
         <div class="col mt-5 offset-md-3 col-sm-6 justify-content-start">
             <p class="h6">STEP 1 OF 3</p>
             <p class="h4 w-50">Create a password to start your membership</p>
@@ -35,8 +35,27 @@
                 </label>
             </div>
 
-            <a class="btn btn-primary mt-3 btn-signup" href="homeScreen.html">Next</a>
+            <a class="btn btn-primary mt-3 btn-signup" href="signUpScreen3.html">Next</a>
         </div>
     </div>
+
+    <footer>
+        <p class="text-center mt-3 text-link">Author: Magdy Yacoub</p>
+        <div class="col col-sm-6 offset-md-1">
+            <a href="#" class="link-dark txt-bold text-link-footer pt-5 pb-3">Questions? Contact us.</a><br>
+            <form class="form-inline pt-5 pb-4">
+                <div class="btn-group">
+                    <button class="btn btn-primary-outline dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        <i class="fas fa-globe mr-1" id="icon"></i>
+                        English
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">العربية</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </footer>
 </body>
 </html>

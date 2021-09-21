@@ -1,8 +1,8 @@
 ﻿.big-banner {
-    background-image: radial-gradient(ellipse 80% 500px, transparent 10%, #212121 70%), url(/images/background2.png);
-    height: 800px;
+    background-image: radial-gradient(ellipse 80% 550px, transparent 10%, #212121 100%), url(/images/background2.png);
+    height: 1000px;
     /*width: 100%;*/
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     /*background-color: #ff006e;*/
 }
 
@@ -96,3 +96,39 @@
     color: blue;
     font-size: 15px;
 }
+
+.text-link-footer {
+    color: #757575;
+    font-size: 15px;
+}
+
+    .text-link-footer:hover {
+        color: #757575;
+        font-size: 15px;
+    }
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.custom-padding {
+    padding-left: 100px;
+}
+
+.footer {
+    padding-top: 10px;
+    background-color: black;
+    opacity: 0.5;
+    color: #BDBDBD;
+}
+
+.btn-primary-outline {
+    background-color: black;
+    color: #757575;
+    border-color: #ccc;
+}
+
+    .btn-primary-outline:hover {
+        background-color: black;
+        color: #757575;
+    }
